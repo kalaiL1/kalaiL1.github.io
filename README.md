@@ -30,7 +30,7 @@ Taskflow is a user-friendly web application designed to help you efficiently man
 1.  **Clone or Download** this repository:
 
     ```bash
-    git clone [https://github.com/your-username/Taskflow.git](https://www.google.com/search?q=https://github.com/your-username/Taskflow.git)
+    git clone https://github.com/kalaiL1/Task-Management-App
     ```
 
 2.  **Open** the `index.html` file in your web browser (e.g., double-click it or drag it into your browser window).
@@ -71,7 +71,7 @@ To host this project using GitHub Pages:
 5.  GitHub will generate a URL, such as:
 
     ```bash
-    [https://your-username.github.io/Taskflow/](https://www.google.com/search?q=https://your-username.github.io/Taskflow/)
+    https://kalaiL1.github.io/Task-Management-App/
     ```
 
 6.  Share this URL for others to view your live project.
