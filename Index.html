@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- Heading section -->
+    <section id="heading">
+        <h2>Taskflow</h2>
+    </section>
+
+    <div class="container">
+        <!-- Input fields for task name and description -->
+        <div class="input_fields">
+            <label for="task name">Task Name:</label>
+            <input type="text" id="task name" name="task name" placeholder="Enter your Task name">
+
+            <label for="Task_description">Task description:</label>
+            <textarea id="Task description" name="Task description" rows="4" cols="25"
+                placeholder="Enter your Task description"></textarea>
+        </div>
+
+        <!-- Buttons for adding, deleting, and editing tasks -->
+        <div class="buttons">
+            <button type="button">Add Task</button>
+            <button type="button">Delete Task</button>
+            <button type="button">Edit Task</button>
+        </div>
+
+        <!-- Search input for filtering tasks by name -->
+        <div class="search">
+            <input type="text" id="search" placeholder="Search tasks by name">
+        </div>
+        <!-- Add this after the search div and before the ListofTasks div -->
+        <div class="filter-options">
+            <span>Filter by status: </span>
+            <button class="filter-btn active" data-status="all">All</button>
+            <button class="filter-btn" data-status="pending">Pending</button>
+            <button class="filter-btn" data-status="completed">Completed</button>
+        </div>
+
+        <!-- Section to display the list of tasks -->
+        <div class="ListofTasks">
+            <h2>List of Tasks</h2>
+            <ul id="taskList">
+                <!-- Task items will be appended here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
